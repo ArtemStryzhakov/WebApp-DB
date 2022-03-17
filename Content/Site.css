@@ -1,0 +1,86 @@
+﻿body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+    background-image: url('../Images/wallpaper.gif');
+    background-size: 100%;
+    background-attachment: fixed;
+    color: white;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    background-color: rgba(0,0,0, 0.4);
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.jumbotron {
+    text-align: center;
+    background-color: rgb(0, 0, 50, 0.3);
+    border: black solid 0.5px;
+}
+
+#celebrate {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.3);
+    border: solid black;
+    border-radius: 30px;
+    padding: 15px;
+    font-size: 20px;
+    font-family: MV Boli;
+    font-style: italic;
+    left: 4%;
+    top: 10%;
+    transition: 0.3s;
+}
+
+#celebrate:hover {
+    padding: 20px;
+    transition: 0.3s;
+}
+
+.birthday_class {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 450px;
+    height: 400px;
+    transition: all 200ms ease-in;
+    filter: grayscale(1) opacity(.8);
+    margin-bottom: 15px;
+}
+
+.birthday_class:hover {
+    filter: grayscale(0) opacity(1);
+    border-right: solid;
+    padding-right: 15px;
+    border-left: solid;
+    padding-left: 15px;
+}
+
+#button-b {
+    margin: auto;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#ipsum_2 {
+    width: 20%;
+    background-color: rgba(0,0,0, 0.3);
+    height: fit-content;
+    padding: 10px;
+}
+
+#ipsum_3 {
+    width: 20%;
+    background-color: rgba(0,0,0, 0.3);
+    height: fit-content;
+    padding: 10px;
+}
+
+.nav navbar-nav:hover {
+    color: white;
+    transition
+}
