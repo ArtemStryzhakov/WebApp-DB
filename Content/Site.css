@@ -4,7 +4,7 @@
     background-image: url('../Images/wallpaper.gif');
     background-size: 100%;
     background-attachment: fixed;
-    color: white;
+    color: #0080FF;
 }
 
 /* Set padding to keep content from hitting the edges */
@@ -78,9 +78,4 @@
     background-color: rgba(0,0,0, 0.3);
     height: fit-content;
     padding: 10px;
-}
-
-.nav navbar-nav:hover {
-    color: white;
-    transition
 }

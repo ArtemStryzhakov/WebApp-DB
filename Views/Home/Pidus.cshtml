@@ -7,7 +7,7 @@
 <h2>Pidus</h2>
 
 <p>
-    @Html.ActionLink("Uus", "Createp")
+    @Html.ActionLink("Uus", "Createpidus")
 </p>
 <table class="table">
     <tr>
@@ -29,8 +29,8 @@
             @Html.DisplayFor(modelItem => item.Date)
         </td>
         <td>
-            @Html.ActionLink("Muuda", "Editp", new { id = item.Id }) |
-            @Html.ActionLink("Kustuta", "Deletep", new { id = item.Id })
+            @Html.ActionLink("Muuda", "Editpidus", new { id = item.Id }) |
+            @Html.ActionLink("Kustuta", "Deletepidus", new { id = item.Id })
         </td>
     </tr>
 }

@@ -297,6 +297,9 @@
     <Content Include="Views\Home\Create.cshtml" />
     <Content Include="Views\Home\Delete.cshtml" />
     <Content Include="Views\Home\Edit.cshtml" />
+    <Content Include="Views\Home\Createpidus.cshtml" />
+    <Content Include="Views\Home\Deletepidus.cshtml" />
+    <Content Include="Views\Home\Editpidus.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

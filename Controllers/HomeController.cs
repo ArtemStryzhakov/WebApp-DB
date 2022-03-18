@@ -145,19 +145,19 @@ namespace KutseApp.Controllers
 			return RedirectToAction("Guests");
 		}
 		[HttpGet]
-		public ActionResult Createp()
+		public ActionResult Createpidus()
 		{
 			return View();
 		}
 		[HttpPost]
-		public ActionResult Createp(Pidu pidu)
+		public ActionResult Createpidus(Pidu pidu)
 		{
 			pd.Pidus.Add(pidu);
 			pd.SaveChanges();
 			return RedirectToAction("Pidus");
 		}
 		[HttpGet]
-		public ActionResult Deletep(int id)
+		public ActionResult Deletepidus(int id)
 		{
 			Pidu p = pd.Pidus.Find(id);
 			if (p == null)
@@ -166,7 +166,7 @@ namespace KutseApp.Controllers
 			}
 			return View(p);
 		}
-		[HttpPost, ActionName("Deletep")]
+		[HttpPost, ActionName("Deletepidus")]
 		public ActionResult DeleteConfirmedp(int id)
 		{
 			Pidu p = pd.Pidus.Find(id);
@@ -179,7 +179,7 @@ namespace KutseApp.Controllers
 			return RedirectToAction("Pidus");
 		}
 		[HttpGet]
-		public ActionResult Editp(int? id)
+		public ActionResult Editpidus(int? id)
 		{
 			Pidu p = pd.Pidus.Find(id);
 			if (p == null)
@@ -188,7 +188,7 @@ namespace KutseApp.Controllers
 			}
 			return View(p);
 		}
-		[HttpPost, ActionName("Editp")]
+		[HttpPost, ActionName("Editpidus")]
 		public ActionResult EditConfirmedp(Pidu p)
 		{
 			pd.Entry(p).State = System.Data.Entity.EntityState.Modified;
